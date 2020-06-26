@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="files/percy.jpg">
+    <script src="https://kit.fontawesome.com/dc5be4008e.js" crossorigin="anonymous"></script>
+    <link href="https://kit-pro.fontawesome.com/releases/v5.11.2/css/pro.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/casa andina.css">
+    <title>PCY-Hotel Andina House</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div id="propaganda">
+            <video src="files/video.mp4" style="width: 100%;" autoplay muted loop ></video>
+            <div class="opacity">
+                <div class="cab1">
+                    <ul class="nav1">
+                        <li id="lic"><u>RESERVA</u></li>
+                        <li>DESTINOS</li>
+                        <li>NUESTROS HOTELES</li>
+                        <li>RESTAURANTES</li>
+                        <li>PROMOCIONES</li>
+                        <li>EVENTOS</li>
+                    </ul>
+                </div>
+                <div class="cab2">
+                    <ul class="nav2">
+                        <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></i></li>                        
+                        <li><a href="#" class="user"><i class="far fa-user-alt"></i></a></li>
+                        <li>Español <i id="ab" class="fal fa-angle-down fa-lg"></i></li>
+                        <li>PEN <i id="ab" class="fal fa-angle-down fa-lg"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chat">
+                <p id="chat"><i id="ab" class="fal fa-comment-lines fa-lg"></i><b>Chat</b></p>
+            </div>
+            <div class="LogoHotel">
+                <div class="trapecio"></div>
+                <p id="hotelca"><font size="4">CASA ANDINA</font></p>
+                <p id="hotelca"><font size="1.5">HOTELES</font></p>
+            </div>
+            <div class="bordes">
+                <p>30 Hoteles, 18 Destinos</p>
+                <h1>Descubre el<br>Perú con Casa<br>Andina</h1>
+                <span class="borde-top-left"></span>
+                <span class="borde-top-right"></span>
+                <span class="borde-bottom-left"></span>
+                <span class="borde-bottom-right"></span>
+            </div>
+            <div class="fecha-reserva">
+            </div>
+            <div class="cap1">
+            </div>
+            <div class="cap2">
+            </div>
+            <div class="cap3">
+                <form action="#" method="POST">
+                    <div class="destino" id="destino">
+                        <font class="fontcap3" size="4px">DESTINO, HOTEL</font>
+                        <input type="text" class="destinoInput" name="destino" placeholder="ingrese su destino">
+                        <div class="linea"></div>
+                        <input type="radio" name="destino" id="eligirD" value="PUNO">PUNO
+                        <input type="radio" name="destino" id="eligirD" value="LIMA">LIMA
+                        <input type="radio" name="destino" id="eligirD" value="AREQUIPA">AREQUIPA
+                        <input type="radio" name="destino" id="eligirD" value="CUZCO">CUZCO
+                        <input type="radio" name="destino" id="eligirD" value="TUMBES">TUMBES
+                        <input type="radio" name="destino" id="eligirD" value="ICA">ICA
+                    </div>
+                    <div class="entrada" id="entrada">
+                        <font class="fontcap3" size="3.8px">FECHA ENTRADA</font>
+                        <p id="diaE"></p>
+                        <p id="mesE"></p>
+                        <p id="añoE" size="5px"></p>
+                        <p id="nombE"></p>
+                        <input type="date" name="entradaM" class="calendario" min="2020-01-05">
+                    </div>
+                    <div class="salida" id="salida">
+                        <font class="fontcap3" size="3.8px">FECHA SALIDA</font>
+                        <p id="diaS"></p>
+                        <p id="mesS"></p>
+                        <p id="añoS" size="5px"></p>
+                        <p id="nombS"></p>
+                        <input type="date" name="salidaM" class="calendario" min="2020-01-05">
+                        
+                    </div>
+                    <div class="codigo" id="codigo">
+                        <font class="fontcap3" size="3.8px">CÓDIGO</font>
+                        <input type="text" name="codigo" class="codigoInput" placeholder="ingrese tu código">
+                        <div class="linea"></div>
+                    </div>
+                    <div type="submit" class="buscar">
+                        <input type="button" name="buscar" id="buscar" value="BUSCAR">
+                    </div>
+                </form>                       
+            </div>               
+        </div>
+        <div class="oferta">
+            <div id="ab"><h2><i class="fal fa-utensils-alt fa-lg"></i>30 RESTAURANTES</h2></div>
+            <div id="ab"><p><i class="fad fa-bed-alt fa-lg"></i>cama</p></div>
+            <div id="ab"><p><i class="far fa-compass fa-lg"></i>18 DESTINOS</p></div>
+            
+        </div>
+    </div>
+<script src="js/casa andina.js"></script>  
+</body>
+</html>
