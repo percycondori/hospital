@@ -1,0 +1,33 @@
+h1{
+  color: red;
+  font-size: 40px;
+  font-family: Arial;
+  text-align:center;
+}
+body{
+    color: rgb(red, green, blue);
+    height: 45%;
+    width: 98%;
+    background-color: honeydew;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 3px 20px;
+
+}
+title{
+    color: greenyellow;
+    position: absolute;
+    border: 1px solid#19678b;
+    border-radius: 6px;
+    font-family: Arial;
+    background-color: rgb(131, 21, 21);
+    padding: 2px 11px;
+}
+P {color:red; 
+    font-size:11px;
+    font-family:Courier;
+    font-weight:bold;
+    font-style:italic;
+    line-height:30px;
+    text-align:left;
+   }
